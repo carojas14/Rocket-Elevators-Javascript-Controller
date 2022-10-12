@@ -204,8 +204,7 @@ SET second elevator floor OF column elevatorsList TO 6
 
 SET elevator TO CALL column requestElevator WITH 3 AND Up RETURNING elevator
 CALL elevator requestFloor WITH 7
-'==================================End Scenario 1=============================================
-
+'
 
 '==================================Scenario 2=================================================
 SET column TO NEW Column WITH 1 AND online AND 10 AND 2 '//id, status, amountOfFloors, amountOfElevators
