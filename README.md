@@ -1,5 +1,5 @@
 # Rocket-Elevators-Javascript-Controller
-This is the python residential controller program. The scenarios used to test the program is for a 10 story building served by 2 elevator cages.
+This is the javascript residential controller program. The scenarios used to test the program is for a 10 story building served by 2 elevator cages.
 
 ### This controller is capable of supporting two main events:
 
