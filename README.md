@@ -1,6 +1,14 @@
 # Rocket-Elevators-Javascript-Controller
 This is the javascript residential controller program. The scenarios used to test the program is for a 10 story building served by 2 elevator cages.
 
+The necessary files to run some tests are also present. With Node JS and NPM installed, first run:
+
+`npm install`
+
+and then, to run the tests:
+
+`npm test`
+
 ### This controller is capable of supporting two main events:
 
 1. A person presses a call button to request an elevator, the controller selects an available cage and it is routed to that person based on two parameters provided by pressing the button:

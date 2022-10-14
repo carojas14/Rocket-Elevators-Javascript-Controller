@@ -194,7 +194,7 @@ class Elevator {
                 while (this.currentFloor < destination) {
                     this.currentFloor++;
                     this.screenDisplay = this.currentFloor;
-                    console.log("going up!!!", this.currentFloor);
+                    //console.log("going up!!!", this.currentFloor);
                 }
             //Elevator position is higher than requested floor
             } else if (this.currentFloor > destination) {
@@ -205,13 +205,13 @@ class Elevator {
                 while (this.currentFloor > destination) {
                     this.currentFloor--;
                     this.screenDisplay = this.currentFloor;
-                    console.log("going down!!!", this.currentFloor);
+                    //console.log("going down!!!", this.currentFloor);
                 }
             }
 
             this.status = "stopped";
             this.floorRequestList.shift();
-            console.log("stopped in : ", this.currentFloor);
+            //console.log("stopped in : ", this.currentFloor);
         }
         this.status = "idle";
     }
